@@ -1,0 +1,84 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fin del reset*/
+
+body{
+    border:0.5em solid rgb(204, 202, 202);
+    width: 900px;
+    margin: auto;
+    font-family:'Lucida Sans Unicode';
+    /*padding: 1em;*/
+}
+
+.bloque{
+    background-color:white;
+    border-radius: 0.4em;
+    margin: -0.1em;
+    
+}
+
+h1{
+    margin-left: 6.5em;
+    padding: 0.5em;
+    color:burlywood
+}
+span{
+    color:rgb(13, 143, 13);
+}
+
+.sidebar{
+    width: fit-content;
+    margin-left: 2em;
+}
+
+.contenido{
+    border: 0.1em solid rgb(204, 202, 202);
+    width: fit-content;
+    margin: 1em 1.5em 1.5em 14em;
+    padding: 0.5em;
+    margin-top: -14em;
+    background: linear-gradient(180deg,rgb(201, 199, 199), white, rgb(201, 199, 199));
+    
+}
+
+h2{
+    color: green;
+}
+
+p{
+    padding-top: 1em;
+}
+
+footer p{
+    margin-left: 10em;
+    color: rgb(185, 182, 182);
+    font-style: italic;
+}
+
+footer a{
+    color: rgb(185, 182, 182) ;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    width: 10em;
+    height: 3em;
+    margin-bottom: 1em;
+    background: linear-gradient(white 50%, rgb(66, 199, 66));
+}
+
+button:hover{
+    background: linear-gradient(white 50%, pink);
+    font-weight: bold;
+}
+
+
+
+
